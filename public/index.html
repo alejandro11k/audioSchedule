@@ -1,0 +1,37 @@
+<br>
+<br>
+<button id="script1"> script1 </button>
+<br>
+<br>
+<br>
+<br>
+<button id="script2"> script1 </button>
+<br>
+<br>
+<button id="script3"> script3 </button>
+<br>
+<br>
+<br>
+<br>
+<button id="script4"> script2and3 </button>
+
+<script type="module">
+    import { ScheduleModule } from './minschedule.js' 
+    window.schedule = new ScheduleModule()
+    
+    document.querySelector('#script1').addEventListener('click', () => {
+        window.schedule.script1()
+    })
+
+    document.querySelector('#script2').addEventListener('click', () => {
+        window.schedule.script2()
+    })
+
+    document.querySelector('#script3').addEventListener('click', () => {
+        window.schedule.script3()
+    })
+
+    document.querySelector('#script4').addEventListener('click', () => {
+        window.schedule.script2and3()
+    })
+</script>

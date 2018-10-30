@@ -1,0 +1,22 @@
+{
+  "name": "audioschedule",
+  "version": "1.0.0",
+  "description": "audioworklet schedule testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandro11k/audioSchedule.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandro11k/audioSchedule/issues"
+  },
+  "homepage": "https://github.com/alejandro11k/audioSchedule#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
